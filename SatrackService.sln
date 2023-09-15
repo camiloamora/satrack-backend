@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2B4D026F-C19D-468A-8AFE-E806A1C33DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatrackTaskCore", "src\SatrackAppCore\SatrackTaskCore.csproj", "{168E2882-C3A1-48C9-8434-01EC450C3A4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{030CEAE6-BA5C-4BCD-BC0E-919642A768A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{0C4F0E6E-31D4-492C-BF47-DEFDC7CF2537}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Todo", "Todo", "{F47EF3D0-AB3C-44B1-B717-8DAD2BB3A91A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{6268C414-CB72-4B8D-A39F-DD593C20E6E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Tests", "test\apps\Todo\Backend\Backend.Tests\Backend.Tests.csproj", "{E0EAD7D1-BC39-4622-B0AC-1D4AB266CF6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168E2882-C3A1-48C9-8434-01EC450C3A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168E2882-C3A1-48C9-8434-01EC450C3A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168E2882-C3A1-48C9-8434-01EC450C3A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168E2882-C3A1-48C9-8434-01EC450C3A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0EAD7D1-BC39-4622-B0AC-1D4AB266CF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0EAD7D1-BC39-4622-B0AC-1D4AB266CF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0EAD7D1-BC39-4622-B0AC-1D4AB266CF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0EAD7D1-BC39-4622-B0AC-1D4AB266CF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{168E2882-C3A1-48C9-8434-01EC450C3A4F} = {2B4D026F-C19D-468A-8AFE-E806A1C33DF2}
+		{0C4F0E6E-31D4-492C-BF47-DEFDC7CF2537} = {030CEAE6-BA5C-4BCD-BC0E-919642A768A0}
+		{F47EF3D0-AB3C-44B1-B717-8DAD2BB3A91A} = {0C4F0E6E-31D4-492C-BF47-DEFDC7CF2537}
+		{6268C414-CB72-4B8D-A39F-DD593C20E6E5} = {F47EF3D0-AB3C-44B1-B717-8DAD2BB3A91A}
+		{E0EAD7D1-BC39-4622-B0AC-1D4AB266CF6C} = {6268C414-CB72-4B8D-A39F-DD593C20E6E5}
+	EndGlobalSection
+EndGlobal
